@@ -1,0 +1,6 @@
+C:\Users\quint\Downloads\Ultrasonic Ranger.cydsn\Ultrasonic Ranger.cydsn\Ultrasonic Ranger.cyprj|639c047d-fa81-47d2-ad1f-441758027f03
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|dd93c600-0f21-4a55-b490-17e530b1d532
+C:\Users\quint\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|81277ca8-68b8-41ff-bb1a-ffcc29e68ea9
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|99608beb-26d3-4d06-be0c-4a1c38e00651
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|ab11671a-7756-49d4-a926-223d40fa8d8d
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|830b1d9d-8593-4ff4-a967-22caa79732d2

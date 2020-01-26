@@ -1,0 +1,1077 @@
+Archive member included because of file (symbol)
+
+.\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+                              .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o (cyfitter_cfg)
+.\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyBootAsmGnu.o)
+                              .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o) (CyDelayCycles)
+.\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+                              .\CortexM0\ARM_GCC_473\Debug\main.o (CyDelayUs)
+.\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Power_Up_LCD_Pin_1.o)
+                              .\CortexM0\ARM_GCC_473\Debug\main.o (Power_Up_LCD_Pin_1_Write)
+.\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+                              .\CortexM0\ARM_GCC_473\Debug\main.o (LCD_Char_WriteControl)
+.\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+                              .\CortexM0\ARM_GCC_473\Debug\main.o (ISR_StartEx)
+.\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LED.o)
+                              .\CortexM0\ARM_GCC_473\Debug\main.o (LED_Write)
+.\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_N.o)
+                              .\CortexM0\ARM_GCC_473\Debug\main.o (Back_Light_On_N_Write)
+.\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_P.o)
+                              .\CortexM0\ARM_GCC_473\Debug\main.o (Back_Light_On_P_Write)
+.\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+                              .\CortexM0\ARM_GCC_473\Debug\main.o (Timer_Start)
+.\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Trigger.o)
+                              .\CortexM0\ARM_GCC_473\Debug\main.o (Trigger_Write)
+.\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char_BarGraph.o)
+                              .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o) (LCD_Char_customFonts)
+g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o)
+                              .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o) (__aeabi_uidiv)
+g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divsi3.o)
+                              .\CortexM0\ARM_GCC_473\Debug\main.o (__aeabi_idiv)
+g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                              g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-__atexit2.o)
+                              g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__register_exitproc)
+g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-exit.o)
+                              g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (exit)
+g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-fini.o)
+                              g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_fini_array)
+g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-impure.o)
+                              g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-exit.o) (_global_impure_ptr)
+g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-init.o)
+                              g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_init_array)
+g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memcpy.o)
+                              .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o) (memcpy)
+g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memset.o)
+                              g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (memset)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+ .data          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+ .bss           0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+ .data          0x00000000        0x4 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .text          0x00000000       0x74 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .data          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .bss           0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.extab     0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.exidx     0x00000000        0x8 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .text._exit    0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+ .text.CYCONFIGCPY
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+ .text.CYCONFIGCPYCODE
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyBootAsmGnu.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyBootAsmGnu.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysClkImoStart
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysClkImoStop
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysClkIloStart
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysClkIloStop
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysClkWriteHfclkDirect
+                0x00000000       0x44 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysClkWriteSysclkDiv
+                0x00000000       0x44 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysClkWriteImoFreq
+                0x00000000      0x200 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysWdtLock
+                0x00000000       0x44 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysWdtUnlock
+                0x00000000       0x5c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysWdtReadEnabledStatus
+                0x00000000       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysWdtWriteMode
+                0x00000000       0x70 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysWdtReadMode
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysWdtWriteClearOnMatch
+                0x00000000       0x68 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysWdtReadClearOnMatch
+                0x00000000       0x40 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysWdtEnable
+                0x00000000       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysWdtDisable
+                0x00000000       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysWdtWriteCascade
+                0x00000000       0x68 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysWdtReadCascade
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysWdtWriteMatch
+                0x00000000       0x74 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysWdtWriteToggleBit
+                0x00000000       0x54 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysWdtReadToggleBit
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysWdtReadMatch
+                0x00000000       0x44 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysWdtReadCount
+                0x00000000       0x54 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysWdtGetInterruptSource
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysWdtClearInterrupt
+                0x00000000       0xb8 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysWdtResetCounters
+                0x00000000       0x38 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysLvdEnable
+                0x00000000       0x48 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysLvdDisable
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysLvdGetInterruptSource
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysLvdClearInterrupt
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySysGetResetReason
+                0x00000000       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CyDisableInts
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CyEnableInts
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CyIntSetSysVector
+                0x00000000       0x48 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CyIntGetSysVector
+                0x00000000       0x34 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CyIntSetVector
+                0x00000000       0x4c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CyIntGetVector
+                0x00000000       0x38 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CyIntSetPriority
+                0x00000000       0xa8 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CyIntGetPriority
+                0x00000000       0x58 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CyIntEnable
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CyIntGetState
+                0x00000000       0x34 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CyIntDisable
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CyIntSetPending
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CyIntClearPending
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CyHalt   0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CySoftwareReset
+                0x00000000       0x20 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text.CyDelayFreq
+                0x00000000       0x80 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .rodata        0x00000000       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Power_Up_LCD_Pin_1.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Power_Up_LCD_Pin_1.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Power_Up_LCD_Pin_1.o)
+ .text.Power_Up_LCD_Pin_1_SetDriveMode
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Power_Up_LCD_Pin_1.o)
+ .text.Power_Up_LCD_Pin_1_Read
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Power_Up_LCD_Pin_1.o)
+ .text.Power_Up_LCD_Pin_1_ReadDataReg
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Power_Up_LCD_Pin_1.o)
+ .text.Power_Up_LCD_Pin_1_ClearInterrupt
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Power_Up_LCD_Pin_1.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+ .text.LCD_Char_Stop
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+ .text.LCD_Char_PutChar
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+ .text.LCD_Char_PrintInt8
+                0x00000000       0x3c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+ .text.LCD_Char_PrintInt16
+                0x00000000       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+ .text.LCD_Char_PrintInt32
+                0x00000000       0x48 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+ .rodata        0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .text.ISR_Start
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .text.ISR_Stop
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .text.ISR_Interrupt
+                0x00000000        0x8 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .text.ISR_GetVector
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .text.ISR_GetPriority
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .text.ISR_GetState
+                0x00000000       0x20 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .text.ISR_SetPending
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .text.ISR_ClearPending
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LED.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LED.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LED.o)
+ .text.LED_SetDriveMode
+                0x00000000       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LED.o)
+ .text.LED_Read
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LED.o)
+ .text.LED_ReadDataReg
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LED.o)
+ .text.LED_ClearInterrupt
+                0x00000000       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LED.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_N.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_N.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_N.o)
+ .text.Back_Light_On_N_SetDriveMode
+                0x00000000       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_N.o)
+ .text.Back_Light_On_N_Read
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_N.o)
+ .text.Back_Light_On_N_ReadDataReg
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_N.o)
+ .text.Back_Light_On_N_ClearInterrupt
+                0x00000000       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_N.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_P.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_P.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_P.o)
+ .text.Back_Light_On_P_SetDriveMode
+                0x00000000       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_P.o)
+ .text.Back_Light_On_P_Read
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_P.o)
+ .text.Back_Light_On_P_ReadDataReg
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_P.o)
+ .text.Back_Light_On_P_ClearInterrupt
+                0x00000000       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_P.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_Stop
+                0x00000000       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_SetMode
+                0x00000000       0x48 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_SetQDMode
+                0x00000000       0x48 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_SetPrescaler
+                0x00000000       0x48 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_SetOneShot
+                0x00000000       0x4c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_SetPWMMode
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_SetPWMSyncKill
+                0x00000000       0x48 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_SetPWMStopOnKill
+                0x00000000       0x48 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_SetPWMDeadTime
+                0x00000000       0x4c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_SetPWMInvert
+                0x00000000       0x48 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_WriteCounter
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_SetCounterMode
+                0x00000000       0x48 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_ReadPeriod
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_SetCompareSwap
+                0x00000000       0x48 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_WritePeriodBuf
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_ReadPeriodBuf
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_SetPeriodSwap
+                0x00000000       0x48 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_WriteCompare
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_ReadCompare
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_WriteCompareBuf
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_ReadCompareBuf
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_ReadCapture
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_ReadCaptureBuf
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_SetCaptureMode
+                0x00000000       0x44 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_SetReloadMode
+                0x00000000       0x44 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_SetStartMode
+                0x00000000       0x48 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_SetStopMode
+                0x00000000       0x44 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_SetCountMode
+                0x00000000       0x44 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_TriggerCommand
+                0x00000000       0x3c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_ReadStatus
+                0x00000000       0x20 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_GetInterruptSourceMasked
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_GetInterruptSource
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text.Timer_SetInterrupt
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Trigger.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Trigger.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Trigger.o)
+ .text.Trigger_SetDriveMode
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Trigger.o)
+ .text.Trigger_Read
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Trigger.o)
+ .text.Trigger_ReadDataReg
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Trigger.o)
+ .text.Trigger_ClearInterrupt
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Trigger.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char_BarGraph.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char_BarGraph.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char_BarGraph.o)
+ .text.LCD_Char_DrawHorizontalBG
+                0x00000000      0x104 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char_BarGraph.o)
+ .data          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-__atexit2.o)
+ .data          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-__atexit2.o)
+ .bss           0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-__atexit2.o)
+ .text.__register_exitproc
+                0x00000000       0x18 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-__atexit2.o)
+ .text          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-exit.o)
+ .data          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x30 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-exit.o)
+ .text          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-fini.o)
+ .data          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-fini.o)
+ .bss           0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-fini.o)
+ .text.__libc_fini_array
+                0x00000000       0x2c g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-fini.o)
+ .text          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-impure.o)
+ .data          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000       0x64 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-impure.o)
+ .rodata.str1.1
+                0x00000000        0x2 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-impure.o)
+ .text          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-init.o)
+ .data          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-init.o)
+ .bss           0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-init.o)
+ .text          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memcpy.o)
+ .text.memcpy   0x00000000       0x12 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memset.o)
+ .data          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memset.o)
+ .text          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ .data          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ .bss           0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ .text          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+ .data          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+ .bss           0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00008000         xr
+ram              0x20000000         0x00001000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+LOAD g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+LOAD g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+START GROUP
+LOAD .\CortexM0\ARM_GCC_473\Debug\main.o
+LOAD .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+LOAD .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+LOAD .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+LOAD .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a
+LOAD G:\Cypress PSoC\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM0\ARM_GCC_473\Debug\CyComponentLibrary.a
+END GROUP
+START GROUP
+LOAD g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a
+LOAD g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a
+END GROUP
+LOAD g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+LOAD g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+START GROUP
+LOAD g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a
+LOAD g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc.a
+LOAD g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libnosys.a
+END GROUP
+                0x00000000                CY_APPL_ORIGIN = 0x0
+                0x00000080                CY_FLASH_ROW_SIZE = 0x80
+                0x00000001                CY_APPL_NUM = 0x1
+                0x00000040                CY_METADATA_SIZE = 0x40
+                0x20000110                PROVIDE (__cy_heap_start, _end)
+                0x00000001                PROVIDE (__cy_region_num, ((__cy_regions_end - __cy_regions) / 0x10))
+                0x20001000                PROVIDE (__cy_stack, (ORIGIN (ram) + 0x1000))
+                0x20000c00                PROVIDE (__cy_heap_end, (__cy_stack - 0x400))
+
+.cybootloader   0x00000000     0x1080
+ *(.cybootloader)
+ .cybootloader  0x00000000     0x1080 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+                0x00000000                cy_bootloader
+                0x00001080                appl1_start = CY_APPL_ORIGIN?CY_APPL_ORIGIN:ALIGN (CY_FLASH_ROW_SIZE)
+                0x00004800                appl2_start = (appl1_start + ALIGN ((((0x8000 - appl1_start) - (0x2 * CY_FLASH_ROW_SIZE)) / 0x2), CY_FLASH_ROW_SIZE))
+                0x00001080                appl_start = (CY_APPL_NUM == 0x1)?appl1_start:appl2_start
+
+.text           0x00001080      0xfc6
+ CREATE_OBJECT_SYMBOLS
+                0x00001080                PROVIDE (__cy_interrupt_vector, RomVectors)
+ *(.romvectors)
+ .romvectors    0x00001080       0x10 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+                0x00001080                RomVectors
+                0x00000001                ASSERT ((. != __cy_interrupt_vector), No interrupt vector)
+                0x00000001                ASSERT (CY_APPL_ORIGIN?(SIZEOF (.cybootloader) <= CY_APPL_ORIGIN):0x1, Wrong image location)
+                0x00001090                PROVIDE (__cy_reset, Reset)
+ *(.text.Reset)
+ .text.Reset    0x00001090       0x14 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+                0x00001090                Reset
+                0x00000001                ASSERT ((. != __cy_reset), No reset code)
+ *(.psocinit)
+ .psocinit      0x000010a4      0x258 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+                0x000011dc                cyfitter_cfg
+                0x000012fc                . = MAX (., 0x100)
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x000012fc       0x60 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .text.Timer_ISR_handler
+                0x0000135c       0x3c .\CortexM0\ARM_GCC_473\Debug\main.o
+                0x0000135c                Timer_ISR_handler
+ .text.main     0x00001398       0xb8 .\CortexM0\ARM_GCC_473\Debug\main.o
+                0x00001398                main
+ .text.IntDefaultHandler
+                0x00001450        0x8 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+                0x00001450                IntDefaultHandler
+ .text.Start_c  0x00001458       0xa4 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+                0x00001458                Start_c
+ .text.initialize_psoc
+                0x000014fc       0x74 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+                0x000014fc                initialize_psoc
+ .text.CYMEMZERO
+                0x00001570       0x20 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+ .text.cfg_write_bytes32
+                0x00001590       0x80 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+ .text.AnalogSetDefault
+                0x00001610        0x8 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+ .text          0x00001618       0x20 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyBootAsmGnu.o)
+                0x00001618                CyDelayCycles
+                0x0000162a                CyEnterCriticalSection
+                0x00001632                CyExitCriticalSection
+ .text.CyDelay  0x00001638       0x48 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+                0x00001638                CyDelay
+ .text.CyDelayUs
+                0x00001680       0x28 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+                0x00001680                CyDelayUs
+ .text.Power_Up_LCD_Pin_1_Write
+                0x000016a8       0x48 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Power_Up_LCD_Pin_1.o)
+                0x000016a8                Power_Up_LCD_Pin_1_Write
+ .text.LCD_Char_Init
+                0x000016f0       0x7c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+                0x000016f0                LCD_Char_Init
+ .text.LCD_Char_Enable
+                0x0000176c       0x18 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+                0x0000176c                LCD_Char_Enable
+ .text.LCD_Char_Start
+                0x00001784       0x24 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+                0x00001784                LCD_Char_Start
+ .text.LCD_Char_Position
+                0x000017a8       0x74 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+                0x000017a8                LCD_Char_Position
+ .text.LCD_Char_PrintString
+                0x0000181c       0x58 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+                0x0000181c                LCD_Char_PrintString
+ .text.LCD_Char_WriteData
+                0x00001874       0x48 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+                0x00001874                LCD_Char_WriteData
+ .text.LCD_Char_WriteControl
+                0x000018bc       0x48 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+                0x000018bc                LCD_Char_WriteControl
+ .text.LCD_Char_IsReady
+                0x00001904       0xe4 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+                0x00001904                LCD_Char_IsReady
+ .text.LCD_Char_WrDatNib
+                0x000019e8       0x6c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+ .text.LCD_Char_WrCntrlNib
+                0x00001a54       0x58 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+ .text.LCD_Char_PrintU32Number
+                0x00001aac       0xb8 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+                0x00001aac                LCD_Char_PrintU32Number
+ .text.ISR_StartEx
+                0x00001b64       0x24 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+                0x00001b64                ISR_StartEx
+ .text.ISR_SetVector
+                0x00001b88       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+                0x00001b88                ISR_SetVector
+ .text.ISR_SetPriority
+                0x00001ba4       0x50 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+                0x00001ba4                ISR_SetPriority
+ .text.ISR_Enable
+                0x00001bf4       0x14 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+                0x00001bf4                ISR_Enable
+ .text.ISR_Disable
+                0x00001c08       0x14 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+                0x00001c08                ISR_Disable
+ .text.LED_Write
+                0x00001c1c       0x4c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LED.o)
+                0x00001c1c                LED_Write
+ .text.Back_Light_On_N_Write
+                0x00001c68       0x4c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_N.o)
+                0x00001c68                Back_Light_On_N_Write
+ .text.Back_Light_On_P_Write
+                0x00001cb4       0x4c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_P.o)
+                0x00001cb4                Back_Light_On_P_Write
+ .text.Timer_Init
+                0x00001d00       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+                0x00001d00                Timer_Init
+ .text.Timer_Enable
+                0x00001d30       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+                0x00001d30                Timer_Enable
+ .text.Timer_Start
+                0x00001d60       0x24 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+                0x00001d60                Timer_Start
+ .text.Timer_ReadCounter
+                0x00001d84       0x18 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+                0x00001d84                Timer_ReadCounter
+ .text.Timer_WritePeriod
+                0x00001d9c       0x1c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+                0x00001d9c                Timer_WritePeriod
+ .text.Timer_SetInterruptMode
+                0x00001db8       0x18 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+                0x00001db8                Timer_SetInterruptMode
+ .text.Timer_ClearInterrupt
+                0x00001dd0       0x18 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+                0x00001dd0                Timer_ClearInterrupt
+ .text.Trigger_Write
+                0x00001de8       0x48 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Trigger.o)
+                0x00001de8                Trigger_Write
+ .text.LCD_Char_LoadCustomFonts
+                0x00001e30       0x58 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char_BarGraph.o)
+                0x00001e30                LCD_Char_LoadCustomFonts
+ .text          0x00001e88       0x9c g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o)
+                0x00001e88                __aeabi_uidiv
+                0x00001e88                __udivsi3
+                0x00001f10                __aeabi_uidivmod
+ .text          0x00001f24       0xc0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divsi3.o)
+                0x00001f24                __divsi3
+                0x00001f24                __aeabi_idiv
+                0x00001fd0                __aeabi_idivmod
+ .text          0x00001fe4        0x4 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x00001fe4                __aeabi_idiv0
+                0x00001fe4                __aeabi_ldiv0
+ .text.__libc_init_array
+                0x00001fe8       0x4c g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-init.o)
+                0x00001fe8                __libc_init_array
+ .text.memset   0x00002034       0x12 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memset.o)
+                0x00002034                memset
+ *(.plt)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.bootloader)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ *(.gcc_except_table)
+
+.v4_bx          0x00002048        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00002048        0x0
+ .iplt          0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x00002048        0x4
+ *(.eh_frame)
+ .eh_frame      0x00002048        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .eh_frame      0x00002048        0x4 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+                0x0000204c                PROVIDE (__exidx_start, .)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000204c                __exidx_end = .
+
+.rodata         0x0000204c       0xbc
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000204c       0x24 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .rodata        0x00002070       0x24 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+ .rodata        0x00002094       0x40 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char_BarGraph.o)
+                0x00002094                LCD_Char_customFonts
+                0x000020d4                . = ALIGN (0x4)
+ *(.init)
+ .init          0x000020d4        0x4 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+                0x000020d4                _init
+ .init          0x000020d8        0x8 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+                0x000020e0                . = ALIGN (0x4)
+                0x000020e0                __preinit_array_start = .
+ *(.preinit_array)
+                0x000020e0                __preinit_array_end = .
+                0x000020e0                . = ALIGN (0x4)
+                0x000020e0                __init_array_start = .
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x000020e0        0x4 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .init_array    0x000020e4        0x4 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+                0x000020e8                __init_array_end = .
+                0x000020e8                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x000020e8        0x4 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+                0x000020e8                _fini
+ .fini          0x000020ec        0x8 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+                0x000020f4                . = ALIGN (0x4)
+                0x000020f4                __fini_array_start = .
+ *(.fini_array)
+ .fini_array    0x000020f4        0x4 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x000020f8                __fini_array_end = .
+                0x000020f8                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+                0x000020f8                . = ALIGN (0x4)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+                0x000020f8                . = ALIGN (0x4)
+                0x000020f8                __cy_regions = .
+                0x000020f8        0x4 LONG 0x2108 __cy_region_init_ram
+                0x000020fc        0x4 LONG 0x200000d0 __cy_region_start_data
+                0x00002100        0x4 LONG 0x18 __cy_region_init_size_ram
+                0x00002104        0x4 LONG 0x28 __cy_region_zero_size_ram
+                0x00002108                __cy_regions_end = .
+                0x00002108                . = ALIGN (0x8)
+                0x00002108                _etext = .
+
+.ramvectors     0x20000000       0xc0
+                0x20000000                __cy_region_start_ram = .
+ *(.ramvectors)
+ .ramvectors    0x20000000       0xc0 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+                0x20000000                CyRamVectors
+
+.btldr_run      0x200000c0        0x4
+ *(.bootloaderruntype)
+ .bootloaderruntype
+                0x200000c0        0x4 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+                0x200000c0                cyBtldrRunType
+
+.noinit         0x200000c8        0x4
+ *(.noinit)
+ .noinit        0x200000c8        0x4 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+
+.data           0x200000d0       0x18 load address 0x00002108
+                0x200000d0                __cy_region_start_data = .
+ *(.jcr)
+ .jcr           0x200000d0        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .jcr           0x200000d0        0x4 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ *(.got.plt)
+ *(.got)
+ *(.shdata)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x200000d4        0x4 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+ .data          0x200000d8       0x10 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+                0x200000d8                cydelayFreqHz
+                0x200000dc                cydelayFreqKhz
+                0x200000e0                cydelayFreqMhz
+                0x200000e4                cydelay32kMs
+                0x200000e8                . = ALIGN (0x8)
+ *(.ram)
+                0x200000e8                _edata = .
+
+.igot.plt       0x200000e8        0x0 load address 0x00002120
+ .igot.plt      0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+
+.bss            0x200000e8       0x28 load address 0x00002120
+                0x200000e8                PROVIDE (__bss_start__, .)
+ *(.shbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x200000e8       0x1c g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .bss           0x20000104        0x8 .\CortexM0\ARM_GCC_473\Debug\main.o
+                0x20000104                i
+                0x20000108                distance
+ .bss           0x2000010c        0x2 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+                0x2000010c                LCD_Char_enableState
+                0x2000010d                LCD_Char_initVar
+ .bss           0x2000010e        0x1 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+                0x2000010e                Timer_initVar
+ *(COMMON)
+                0x20000110                . = ALIGN (0x8)
+ *fill*         0x2000010f        0x1 00
+ *(.ram.b)
+                0x20000110                _end = .
+                0x20000110                __end = .
+                0x20000110                PROVIDE (end, .)
+                0x20000110                PROVIDE (__bss_end__, .)
+                0x00002108                __cy_region_init_ram = LOADADDR (.data)
+                0x00000018                __cy_region_init_size_ram = (_edata - ADDR (.data))
+                0x00000028                __cy_region_zero_size_ram = (_end - _edata)
+
+.heap           0x20000110      0x100 load address 0x00002120
+                0x20000110                . = _end
+                0x20000210                . = (. + 0x100)
+ *fill*         0x20000110      0x100 00
+                0x20000210                __cy_heap_limit = .
+
+.stack          0x20000c00      0x400
+                0x20000c00                __cy_stack_limit = .
+                0x20001000                . = (. + 0x400)
+ *fill*         0x20000c00      0x400 00
+                0x00000001                ASSERT ((__cy_stack_limit >= __cy_heap_limit), region RAM overflowed with stack)
+
+.cyloadermeta   0xf0000000       0x40
+ *(.cyloadermeta)
+ .cyloadermeta  0xf0000000       0x40 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+                0xf0000000                cy_meta_loader
+
+.cyloadablemeta
+                0x00007fc0       0x40
+ *(.cyloadablemeta)
+ .cyloadablemeta
+                0x00007fc0       0x40 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+                0x00007fc0                cy_meta_loadable
+
+.cyflashprotect
+                0x90400000       0x20
+ *(.cyflashprotect)
+ .cyflashprotect
+                0x90400000       0x20 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+                0x90400000                cy_meta_flashprotect
+
+.cymeta         0x90500000        0xc
+ *(.cymeta)
+ .cymeta        0x90500000        0xc .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+                0x90500000                cy_metadata
+
+.cychipprotect  0x90600000        0x4
+ *(.cychipprotect)
+ .cychipprotect
+                0x90600000        0x4 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+                0x90600000                cy_meta_chipprotect
+
+.rel.dyn        0x00008000        0x0 load address 0x90600004
+ .rel.iplt      0x00000000        0x0 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x688
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .debug_aranges
+                0x00000028       0x18 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+ .debug_aranges
+                0x00000040       0x18 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+ .debug_aranges
+                0x00000058       0x40 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .debug_aranges
+                0x00000098       0x58 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+ .debug_aranges
+                0x000000f0       0x20 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyBootAsmGnu.o)
+ .debug_aranges
+                0x00000110      0x1a0 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .debug_aranges
+                0x000002b0       0x40 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Power_Up_LCD_Pin_1.o)
+ .debug_aranges
+                0x000002f0       0x98 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+ .debug_aranges
+                0x00000388       0x80 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .debug_aranges
+                0x00000408       0x40 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LED.o)
+ .debug_aranges
+                0x00000448       0x40 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_N.o)
+ .debug_aranges
+                0x00000488       0x40 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_P.o)
+ .debug_aranges
+                0x000004c8      0x158 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .debug_aranges
+                0x00000620       0x40 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Trigger.o)
+ .debug_aranges
+                0x00000660       0x28 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char_BarGraph.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2c92
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0xfe .\CortexM0\ARM_GCC_473\Debug\main.o
+ .debug_info    0x000000fe      0x152 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+ .debug_info    0x00000250       0xb2 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+ .debug_info    0x00000302      0x2d2 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .debug_info    0x000005d4      0x475 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+ .debug_info    0x00000a49       0x8f .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyBootAsmGnu.o)
+ .debug_info    0x00000ad8      0xac5 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .debug_info    0x0000159d      0x168 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Power_Up_LCD_Pin_1.o)
+ .debug_info    0x00001705      0x42a .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+ .debug_info    0x00001b2f      0x288 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .debug_info    0x00001db7      0x168 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LED.o)
+ .debug_info    0x00001f1f      0x168 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_N.o)
+ .debug_info    0x00002087      0x168 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_P.o)
+ .debug_info    0x000021ef      0x7be .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .debug_info    0x000029ad      0x168 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Trigger.o)
+ .debug_info    0x00002b15      0x17d .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char_BarGraph.o)
+
+.debug_abbrev   0x00000000      0xdc0
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x8b .\CortexM0\ARM_GCC_473\Debug\main.o
+ .debug_abbrev  0x0000008b       0x77 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+ .debug_abbrev  0x00000102       0x5d .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+ .debug_abbrev  0x0000015f      0x175 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .debug_abbrev  0x000002d4      0x18c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+ .debug_abbrev  0x00000460       0x14 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyBootAsmGnu.o)
+ .debug_abbrev  0x00000474      0x1a2 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .debug_abbrev  0x00000616       0xac .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Power_Up_LCD_Pin_1.o)
+ .debug_abbrev  0x000006c2      0x133 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+ .debug_abbrev  0x000007f5      0x16a .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .debug_abbrev  0x0000095f       0xac .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LED.o)
+ .debug_abbrev  0x00000a0b       0xac .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_N.o)
+ .debug_abbrev  0x00000ab7       0xac .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_P.o)
+ .debug_abbrev  0x00000b63       0xfe .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .debug_abbrev  0x00000c61       0xac .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Trigger.o)
+ .debug_abbrev  0x00000d0d       0xb3 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char_BarGraph.o)
+
+.debug_line     0x00000000     0x155c
+ *(.debug_line)
+ .debug_line    0x00000000       0xc9 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .debug_line    0x000000c9       0x55 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+ .debug_line    0x0000011e       0x53 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+ .debug_line    0x00000171      0x18d .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .debug_line    0x000002fe      0x19f .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+ .debug_line    0x0000049d       0x68 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyBootAsmGnu.o)
+ .debug_line    0x00000505      0x541 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .debug_line    0x00000a46       0xb8 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Power_Up_LCD_Pin_1.o)
+ .debug_line    0x00000afe      0x221 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+ .debug_line    0x00000d1f      0x152 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .debug_line    0x00000e71       0xa9 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LED.o)
+ .debug_line    0x00000f1a       0xb5 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_N.o)
+ .debug_line    0x00000fcf       0xb5 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_P.o)
+ .debug_line    0x00001084      0x36d .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .debug_line    0x000013f1       0xad .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Trigger.o)
+ .debug_line    0x0000149e       0xbe .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char_BarGraph.o)
+
+.debug_frame    0x00000000     0x15b0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x48 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .debug_frame   0x00000048       0xa8 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .debug_frame   0x000000f0      0x108 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+ .debug_frame   0x000001f8      0x628 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .debug_frame   0x00000820       0xa8 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Power_Up_LCD_Pin_1.o)
+ .debug_frame   0x000008c8      0x200 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+ .debug_frame   0x00000ac8      0x190 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .debug_frame   0x00000c58       0xa8 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LED.o)
+ .debug_frame   0x00000d00       0xa8 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_N.o)
+ .debug_frame   0x00000da8       0xa8 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_P.o)
+ .debug_frame   0x00000e50      0x52c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .debug_frame   0x0000137c       0xa8 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Trigger.o)
+ .debug_frame   0x00001424       0x54 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char_BarGraph.o)
+ .debug_frame   0x00001478       0x20 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00001498       0x20 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divsi3.o)
+ .debug_frame   0x000014b8       0x28 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-__atexit2.o)
+ .debug_frame   0x000014e0       0x28 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-exit.o)
+ .debug_frame   0x00001508       0x2c g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-fini.o)
+ .debug_frame   0x00001534       0x2c g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-init.o)
+ .debug_frame   0x00001560       0x28 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memcpy.o)
+ .debug_frame   0x00001588       0x28 g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memset.o)
+
+.debug_str      0x00000000     0x13e0
+ *(.debug_str)
+ .debug_str     0x00000000      0x125 .\CortexM0\ARM_GCC_473\Debug\main.o
+                                0x164 (size before relaxing)
+ .debug_str     0x00000125       0x80 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+                                0x1a7 (size before relaxing)
+ .debug_str     0x000001a5       0x37 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+                                0x164 (size before relaxing)
+ .debug_str     0x000001dc      0x11f .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+                                0x260 (size before relaxing)
+ .debug_str     0x000002fb      0x199 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+                                0x310 (size before relaxing)
+ .debug_str     0x00000494      0x4f7 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+                                0x664 (size before relaxing)
+ .debug_str     0x0000098b       0xd3 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Power_Up_LCD_Pin_1.o)
+                                0x20f (size before relaxing)
+ .debug_str     0x00000a5e      0x1e5 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+                                0x339 (size before relaxing)
+ .debug_str     0x00000c43       0xdb .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+                                0x24f (size before relaxing)
+ .debug_str     0x00000d1e       0x66 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LED.o)
+                                0x1b5 (size before relaxing)
+ .debug_str     0x00000d84       0xae .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_N.o)
+                                0x1fd (size before relaxing)
+ .debug_str     0x00000e32       0xae .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_P.o)
+                                0x1fd (size before relaxing)
+ .debug_str     0x00000ee0      0x3e8 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+                                0x532 (size before relaxing)
+ .debug_str     0x000012c8       0x7e .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Trigger.o)
+                                0x1cd (size before relaxing)
+ .debug_str     0x00001346       0x9a .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char_BarGraph.o)
+                                0x1f1 (size before relaxing)
+
+.debug_loc      0x00000000     0x2090
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x58 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .debug_loc     0x00000058      0x100 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .debug_loc     0x00000158      0x1a8 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+ .debug_loc     0x00000300      0xa34 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .debug_loc     0x00000d34      0x100 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Power_Up_LCD_Pin_1.o)
+ .debug_loc     0x00000e34      0x350 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+ .debug_loc     0x00001184      0x26c .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .debug_loc     0x000013f0      0x100 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LED.o)
+ .debug_loc     0x000014f0      0x100 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_N.o)
+ .debug_loc     0x000015f0      0x100 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_P.o)
+ .debug_loc     0x000016f0      0x830 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .debug_loc     0x00001f20      0x100 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Trigger.o)
+ .debug_loc     0x00002020       0x70 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char_BarGraph.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_ranges   0x00000000      0x568
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .debug_ranges  0x00000018       0x30 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .debug_ranges  0x00000048       0x48 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+ .debug_ranges  0x00000090      0x190 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .debug_ranges  0x00000220       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Power_Up_LCD_Pin_1.o)
+ .debug_ranges  0x00000250       0x88 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+ .debug_ranges  0x000002d8       0x70 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .debug_ranges  0x00000348       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LED.o)
+ .debug_ranges  0x00000378       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_N.o)
+ .debug_ranges  0x000003a8       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_P.o)
+ .debug_ranges  0x000003d8      0x148 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .debug_ranges  0x00000520       0x30 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Trigger.o)
+ .debug_ranges  0x00000550       0x18 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char_BarGraph.o)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 .\CortexM0\ARM_GCC_473\Debug\main.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Power_Up_LCD_Pin_1.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LED.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_N.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_P.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Trigger.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char_BarGraph.o)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x00000000       0x28
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1e g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1c g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.attributes
+                0x00000066       0x31 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .ARM.attributes
+                0x00000097       0x31 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+ .ARM.attributes
+                0x000000c8       0x31 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+ .ARM.attributes
+                0x000000f9       0x31 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .ARM.attributes
+                0x0000012a       0x31 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(cyfitter_cfg.o)
+ .ARM.attributes
+                0x0000015b       0x21 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyBootAsmGnu.o)
+ .ARM.attributes
+                0x0000017c       0x31 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(CyLib.o)
+ .ARM.attributes
+                0x000001ad       0x31 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Power_Up_LCD_Pin_1.o)
+ .ARM.attributes
+                0x000001de       0x31 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char.o)
+ .ARM.attributes
+                0x0000020f       0x31 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(ISR.o)
+ .ARM.attributes
+                0x00000240       0x31 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LED.o)
+ .ARM.attributes
+                0x00000271       0x31 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_N.o)
+ .ARM.attributes
+                0x000002a2       0x31 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Back_Light_On_P.o)
+ .ARM.attributes
+                0x000002d3       0x31 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Timer.o)
+ .ARM.attributes
+                0x00000304       0x31 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(Trigger.o)
+ .ARM.attributes
+                0x00000335       0x31 .\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.a(LCD_Char_BarGraph.o)
+ .ARM.attributes
+                0x00000366       0x1e g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000384       0x1e g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000003a2       0x1e g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000003c0       0x2c g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-__atexit2.o)
+ .ARM.attributes
+                0x000003ec       0x2c g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000418       0x2c g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000444       0x2c g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000470       0x2c g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000049c       0x2c g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x000004c8       0x2c g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000004f4       0x2c g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ .ARM.attributes
+                0x00000520       0x1e g:/cypress psoc/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(.\CortexM0\ARM_GCC_473\Debug\Ultrasonic Ranger.elf elf32-littlearm)

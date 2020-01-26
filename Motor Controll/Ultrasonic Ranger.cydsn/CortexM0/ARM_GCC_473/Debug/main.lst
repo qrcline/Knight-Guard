@@ -1,0 +1,776 @@
+ARM GAS  C:\Users\Doel\AppData\Local\Temp\cchIRvGy.s 			page 1
+
+
+   1              		.cpu cortex-m0
+   2              		.fpu softvfp
+   3              		.eabi_attribute 20, 1
+   4              		.eabi_attribute 21, 1
+   5              		.eabi_attribute 23, 3
+   6              		.eabi_attribute 24, 1
+   7              		.eabi_attribute 25, 1
+   8              		.eabi_attribute 26, 1
+   9              		.eabi_attribute 30, 6
+  10              		.eabi_attribute 34, 0
+  11              		.eabi_attribute 18, 4
+  12              		.code	16
+  13              		.file	"main.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.global	i
+  18              		.bss
+  19              		.align	1
+  20              		.type	i, %object
+  21              		.size	i, 2
+  22              	i:
+  23 0000 0000     		.space	2
+  24              		.global	distance
+  25 0002 0000     		.align	2
+  26              		.type	distance, %object
+  27              		.size	distance, 4
+  28              	distance:
+  29 0004 00000000 		.space	4
+  30              		.global	__aeabi_idiv
+  31              		.section	.text.Timer_ISR_handler,"ax",%progbits
+  32              		.align	2
+  33              		.global	Timer_ISR_handler
+  34              		.code	16
+  35              		.thumb_func
+  36              		.type	Timer_ISR_handler, %function
+  37              	Timer_ISR_handler:
+  38              	.LFB33:
+  39              		.file 1 ".\\main.c"
+   1:.\main.c      **** /* ========================================
+   2:.\main.c      ****  *
+   3:.\main.c      ****  * Copyleft by Shahariar,2015
+   4:.\main.c      ****  * All Rights Released
+   5:.\main.c      ****  * OPEN SOFTWARE, NO WARRENTY 
+   6:.\main.c      ****  *
+   7:.\main.c      ****  * DODGY BROTHERS C CODING Inc.  
+   8:.\main.c      ****  * BUG may appear in Future !!!
+   9:.\main.c      ****  * Non-Precision UltraSonic Ranger,
+  10:.\main.c      ****  * ========================================
+  11:.\main.c      **** */
+  12:.\main.c      **** 
+  13:.\main.c      **** #include <project.h>
+  14:.\main.c      **** 
+  15:.\main.c      **** // Initial time ,set  here
+  16:.\main.c      **** int16 i =0;
+  17:.\main.c      **** int distance=0;
+  18:.\main.c      **** 
+ARM GAS  C:\Users\Doel\AppData\Local\Temp\cchIRvGy.s 			page 2
+
+
+  19:.\main.c      **** //CY ISR is a macro for interrupt handling
+  20:.\main.c      **** // http://www.cypress.com/go/an90799 for detalis
+  21:.\main.c      **** CY_ISR(Timer_ISR_handler)
+  22:.\main.c      **** {
+  40              		.loc 1 22 0
+  41              		.cfi_startproc
+  42 0000 80B5     		push	{r7, lr}
+  43              	.LCFI0:
+  44              		.cfi_def_cfa_offset 8
+  45              		.cfi_offset 7, -8
+  46              		.cfi_offset 14, -4
+  47 0002 00AF     		add	r7, sp, #0
+  48              	.LCFI1:
+  49              		.cfi_def_cfa_register 7
+  23:.\main.c      ****     // at 1MHz Timer clock each count is 1 micro Second
+  24:.\main.c      ****     Timer_ClearInterrupt(Timer_INTR_MASK_CC_MATCH);
+  50              		.loc 1 24 0
+  51 0004 0220     		mov	r0, #2
+  52 0006 FFF7FEFF 		bl	Timer_ClearInterrupt
+  25:.\main.c      ****     i= Timer_ReadCounter();    
+  53              		.loc 1 25 0
+  54 000a FFF7FEFF 		bl	Timer_ReadCounter
+  55 000e 031C     		mov	r3, r0
+  56 0010 9AB2     		uxth	r2, r3
+  57 0012 084B     		ldr	r3, .L2
+  58 0014 1A80     		strh	r2, [r3]
+  26:.\main.c      ****     
+  27:.\main.c      ****     // from HC 04 Ultra Sonic module's datasheet, each 58 uS = 1 cm
+  28:.\main.c      ****     
+  29:.\main.c      ****     distance =i/58;
+  59              		.loc 1 29 0
+  60 0016 074B     		ldr	r3, .L2
+  61 0018 1B88     		ldrh	r3, [r3]
+  62 001a 1BB2     		sxth	r3, r3
+  63 001c 181C     		mov	r0, r3
+  64 001e 3A21     		mov	r1, #58
+  65 0020 FFF7FEFF 		bl	__aeabi_idiv
+  66 0024 031C     		mov	r3, r0
+  67 0026 9BB2     		uxth	r3, r3
+  68 0028 1AB2     		sxth	r2, r3
+  69 002a 034B     		ldr	r3, .L2+4
+  70 002c 1A60     		str	r2, [r3]
+  30:.\main.c      ****     // please note that measured distance above 400 cm is not reliable
+  31:.\main.c      ****     
+  32:.\main.c      **** }
+  71              		.loc 1 32 0
+  72 002e BD46     		mov	sp, r7
+  73              		@ sp needed for prologue
+  74 0030 80BD     		pop	{r7, pc}
+  75              	.L3:
+  76 0032 C046     		.align	2
+  77              	.L2:
+  78 0034 00000000 		.word	i
+  79 0038 00000000 		.word	distance
+  80              		.cfi_endproc
+  81              	.LFE33:
+  82              		.size	Timer_ISR_handler, .-Timer_ISR_handler
+ARM GAS  C:\Users\Doel\AppData\Local\Temp\cchIRvGy.s 			page 3
+
+
+  83              		.section	.rodata
+  84              		.align	2
+  85              	.LC3:
+  86 0000 50536F43 		.ascii	"PSoC SonicRANGER\000"
+  86      20536F6E 
+  86      69635241 
+  86      4E474552 
+  86      00
+  87 0011 000000   		.align	2
+  88              	.LC5:
+  89 0014 44697374 		.ascii	"Distance: \000"
+  89      616E6365 
+  89      3A2000
+  90 001f 00       		.align	2
+  91              	.LC8:
+  92 0020 636D00   		.ascii	"cm\000"
+  93 0023 00       		.section	.text.main,"ax",%progbits
+  94              		.align	2
+  95              		.global	main
+  96              		.code	16
+  97              		.thumb_func
+  98              		.type	main, %function
+  99              	main:
+ 100              	.LFB34:
+  33:.\main.c      **** 
+  34:.\main.c      **** int main()
+  35:.\main.c      **** 
+  36:.\main.c      **** {
+ 101              		.loc 1 36 0
+ 102              		.cfi_startproc
+ 103 0000 80B5     		push	{r7, lr}
+ 104              	.LCFI2:
+ 105              		.cfi_def_cfa_offset 8
+ 106              		.cfi_offset 7, -8
+ 107              		.cfi_offset 14, -4
+ 108 0002 00AF     		add	r7, sp, #0
+ 109              	.LCFI3:
+ 110              		.cfi_def_cfa_register 7
+  37:.\main.c      **** // Start Timer
+  38:.\main.c      ****     Timer_Start();
+ 111              		.loc 1 38 0
+ 112 0004 FFF7FEFF 		bl	Timer_Start
+  39:.\main.c      **** // Enable Global Interrupt and start ISR  
+  40:.\main.c      ****     CyGlobalIntEnable; 
+ 113              		.loc 1 40 0
+ 114              	@ 40 ".\main.c" 1
+ 115 0008 62B6     		CPSIE   i
+ 116              	@ 0 "" 2
+  41:.\main.c      ****     ISR_StartEx(Timer_ISR_handler);
+ 117              		.loc 1 41 0
+ 118              		.code	16
+ 119 000a 264B     		ldr	r3, .L6
+ 120 000c 181C     		mov	r0, r3
+ 121 000e FFF7FEFF 		bl	ISR_StartEx
+  42:.\main.c      ****     //SetTime_ISR_Start();
+  43:.\main.c      ****     
+  44:.\main.c      **** //  Supply 5 Vdd to LCD display from MCU and power up Back Light  
+ARM GAS  C:\Users\Doel\AppData\Local\Temp\cchIRvGy.s 			page 4
+
+
+  45:.\main.c      ****     Power_Up_LCD_Pin_1_Write(1);
+ 122              		.loc 1 45 0
+ 123 0012 0120     		mov	r0, #1
+ 124 0014 FFF7FEFF 		bl	Power_Up_LCD_Pin_1_Write
+  46:.\main.c      ****     Back_Light_On_N_Write(0);
+ 125              		.loc 1 46 0
+ 126 0018 0020     		mov	r0, #0
+ 127 001a FFF7FEFF 		bl	Back_Light_On_N_Write
+  47:.\main.c      ****     Back_Light_On_P_Write(1);
+ 128              		.loc 1 47 0
+ 129 001e 0120     		mov	r0, #1
+ 130 0020 FFF7FEFF 		bl	Back_Light_On_P_Write
+  48:.\main.c      **** 
+  49:.\main.c      **** // Start LCD display    
+  50:.\main.c      ****     LCD_Char_Start();
+ 131              		.loc 1 50 0
+ 132 0024 FFF7FEFF 		bl	LCD_Char_Start
+  51:.\main.c      ****     LCD_Char_DisplayOn();
+ 133              		.loc 1 51 0
+ 134 0028 0C20     		mov	r0, #12
+ 135 002a FFF7FEFF 		bl	LCD_Char_WriteControl
+ 136              	.L5:
+  52:.\main.c      ****     
+  53:.\main.c      ****              
+  54:.\main.c      ****         for(;;)
+  55:.\main.c      ****         {
+  56:.\main.c      ****     // for proper application, delay should not be used, 
+  57:.\main.c      ****     // instead a preiodic interrupt or a function call is recommended
+  58:.\main.c      ****     CyDelay(500);
+ 137              		.loc 1 58 0 discriminator 1
+ 138 002e FA23     		mov	r3, #250
+ 139 0030 5B00     		lsl	r3, r3, #1
+ 140 0032 181C     		mov	r0, r3
+ 141 0034 FFF7FEFF 		bl	CyDelay
+  59:.\main.c      ****     
+  60:.\main.c      ****     // Triggers the Ultra Sonic Sensor 
+  61:.\main.c      ****     Trigger_Write(1);
+ 142              		.loc 1 61 0 discriminator 1
+ 143 0038 0120     		mov	r0, #1
+ 144 003a FFF7FEFF 		bl	Trigger_Write
+  62:.\main.c      ****     LED_Write(1);
+ 145              		.loc 1 62 0 discriminator 1
+ 146 003e 0120     		mov	r0, #1
+ 147 0040 FFF7FEFF 		bl	LED_Write
+  63:.\main.c      ****     CyDelayUs(10);
+ 148              		.loc 1 63 0 discriminator 1
+ 149 0044 0A20     		mov	r0, #10
+ 150 0046 FFF7FEFF 		bl	CyDelayUs
+  64:.\main.c      ****     // for 10 uS
+  65:.\main.c      ****     Trigger_Write(0);
+ 151              		.loc 1 65 0 discriminator 1
+ 152 004a 0020     		mov	r0, #0
+ 153 004c FFF7FEFF 		bl	Trigger_Write
+  66:.\main.c      ****     LED_Write(0);
+ 154              		.loc 1 66 0 discriminator 1
+ 155 0050 0020     		mov	r0, #0
+ 156 0052 FFF7FEFF 		bl	LED_Write
+ARM GAS  C:\Users\Doel\AppData\Local\Temp\cchIRvGy.s 			page 5
+
+
+  67:.\main.c      ****     
+  68:.\main.c      ****     LCD_Char_ClearDisplay();
+ 157              		.loc 1 68 0 discriminator 1
+ 158 0056 0120     		mov	r0, #1
+ 159 0058 FFF7FEFF 		bl	LCD_Char_WriteControl
+  69:.\main.c      ****    
+  70:.\main.c      ****     
+  71:.\main.c      ****     LCD_Char_Position(0,0);
+ 160              		.loc 1 71 0 discriminator 1
+ 161 005c 0020     		mov	r0, #0
+ 162 005e 0021     		mov	r1, #0
+ 163 0060 FFF7FEFF 		bl	LCD_Char_Position
+  72:.\main.c      ****     LCD_Char_PrintString("PSoC SonicRANGER");
+ 164              		.loc 1 72 0 discriminator 1
+ 165 0064 104B     		ldr	r3, .L6+4
+ 166 0066 181C     		mov	r0, r3
+ 167 0068 FFF7FEFF 		bl	LCD_Char_PrintString
+  73:.\main.c      ****     
+  74:.\main.c      ****     LCD_Char_Position(1,0);
+ 168              		.loc 1 74 0 discriminator 1
+ 169 006c 0120     		mov	r0, #1
+ 170 006e 0021     		mov	r1, #0
+ 171 0070 FFF7FEFF 		bl	LCD_Char_Position
+  75:.\main.c      ****     LCD_Char_PrintString("Distance: ");
+ 172              		.loc 1 75 0 discriminator 1
+ 173 0074 0D4B     		ldr	r3, .L6+8
+ 174 0076 181C     		mov	r0, r3
+ 175 0078 FFF7FEFF 		bl	LCD_Char_PrintString
+  76:.\main.c      ****     
+  77:.\main.c      ****     LCD_Char_Position(1,10);
+ 176              		.loc 1 77 0 discriminator 1
+ 177 007c 0120     		mov	r0, #1
+ 178 007e 0A21     		mov	r1, #10
+ 179 0080 FFF7FEFF 		bl	LCD_Char_Position
+  78:.\main.c      ****     LCD_Char_PrintNumber(distance);
+ 180              		.loc 1 78 0 discriminator 1
+ 181 0084 0A4B     		ldr	r3, .L6+12
+ 182 0086 1B68     		ldr	r3, [r3]
+ 183 0088 9BB2     		uxth	r3, r3
+ 184 008a 181C     		mov	r0, r3
+ 185 008c FFF7FEFF 		bl	LCD_Char_PrintU32Number
+  79:.\main.c      ****     
+  80:.\main.c      ****     LCD_Char_Position(1,14);
+ 186              		.loc 1 80 0 discriminator 1
+ 187 0090 0120     		mov	r0, #1
+ 188 0092 0E21     		mov	r1, #14
+ 189 0094 FFF7FEFF 		bl	LCD_Char_Position
+  81:.\main.c      ****     LCD_Char_PrintString("cm");
+ 190              		.loc 1 81 0 discriminator 1
+ 191 0098 064B     		ldr	r3, .L6+16
+ 192 009a 181C     		mov	r0, r3
+ 193 009c FFF7FEFF 		bl	LCD_Char_PrintString
+  82:.\main.c      ****     
+  83:.\main.c      ****     
+  84:.\main.c      ****     
+  85:.\main.c      **** }
+ 194              		.loc 1 85 0 discriminator 1
+ARM GAS  C:\Users\Doel\AppData\Local\Temp\cchIRvGy.s 			page 6
+
+
+ 195 00a0 C5E7     		b	.L5
+ 196              	.L7:
+ 197 00a2 C046     		.align	2
+ 198              	.L6:
+ 199 00a4 00000000 		.word	Timer_ISR_handler
+ 200 00a8 00000000 		.word	.LC3
+ 201 00ac 14000000 		.word	.LC5
+ 202 00b0 00000000 		.word	distance
+ 203 00b4 20000000 		.word	.LC8
+ 204              		.cfi_endproc
+ 205              	.LFE34:
+ 206              		.size	main, .-main
+ 207              		.text
+ 208              	.Letext0:
+ 209              		.file 2 "./Generated_Source/PSoC4/cytypes.h"
+ 210              		.section	.debug_info,"",%progbits
+ 211              	.Ldebug_info0:
+ 212 0000 FA000000 		.4byte	0xfa
+ 213 0004 0200     		.2byte	0x2
+ 214 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 215 000a 04       		.byte	0x4
+ 216 000b 01       		.uleb128 0x1
+ 217 000c 27000000 		.4byte	.LASF19
+ 218 0010 01       		.byte	0x1
+ 219 0011 4B010000 		.4byte	.LASF20
+ 220 0015 06010000 		.4byte	.LASF21
+ 221 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 222 001d 00000000 		.4byte	0
+ 223 0021 00000000 		.4byte	0
+ 224 0025 00000000 		.4byte	.Ldebug_line0
+ 225 0029 02       		.uleb128 0x2
+ 226 002a 01       		.byte	0x1
+ 227 002b 06       		.byte	0x6
+ 228 002c F4000000 		.4byte	.LASF0
+ 229 0030 02       		.uleb128 0x2
+ 230 0031 01       		.byte	0x1
+ 231 0032 08       		.byte	0x8
+ 232 0033 A2000000 		.4byte	.LASF1
+ 233 0037 02       		.uleb128 0x2
+ 234 0038 02       		.byte	0x2
+ 235 0039 05       		.byte	0x5
+ 236 003a BE000000 		.4byte	.LASF2
+ 237 003e 02       		.uleb128 0x2
+ 238 003f 02       		.byte	0x2
+ 239 0040 07       		.byte	0x7
+ 240 0041 E1000000 		.4byte	.LASF3
+ 241 0045 02       		.uleb128 0x2
+ 242 0046 04       		.byte	0x4
+ 243 0047 05       		.byte	0x5
+ 244 0048 B5000000 		.4byte	.LASF4
+ 245 004c 02       		.uleb128 0x2
+ 246 004d 04       		.byte	0x4
+ 247 004e 07       		.byte	0x7
+ 248 004f 70000000 		.4byte	.LASF5
+ 249 0053 02       		.uleb128 0x2
+ 250 0054 08       		.byte	0x8
+ 251 0055 05       		.byte	0x5
+ARM GAS  C:\Users\Doel\AppData\Local\Temp\cchIRvGy.s 			page 7
+
+
+ 252 0056 00000000 		.4byte	.LASF6
+ 253 005a 02       		.uleb128 0x2
+ 254 005b 08       		.byte	0x8
+ 255 005c 07       		.byte	0x7
+ 256 005d 82000000 		.4byte	.LASF7
+ 257 0061 03       		.uleb128 0x3
+ 258 0062 04       		.byte	0x4
+ 259 0063 05       		.byte	0x5
+ 260 0064 696E7400 		.ascii	"int\000"
+ 261 0068 02       		.uleb128 0x2
+ 262 0069 04       		.byte	0x4
+ 263 006a 07       		.byte	0x7
+ 264 006b 15000000 		.4byte	.LASF8
+ 265 006f 04       		.uleb128 0x4
+ 266 0070 54010000 		.4byte	.LASF9
+ 267 0074 02       		.byte	0x2
+ 268 0075 5C       		.byte	0x5c
+ 269 0076 3E000000 		.4byte	0x3e
+ 270 007a 04       		.uleb128 0x4
+ 271 007b 0E000000 		.4byte	.LASF10
+ 272 007f 02       		.byte	0x2
+ 273 0080 5D       		.byte	0x5d
+ 274 0081 4C000000 		.4byte	0x4c
+ 275 0085 04       		.uleb128 0x4
+ 276 0086 45010000 		.4byte	.LASF11
+ 277 008a 02       		.byte	0x2
+ 278 008b 5F       		.byte	0x5f
+ 279 008c 37000000 		.4byte	0x37
+ 280 0090 02       		.uleb128 0x2
+ 281 0091 04       		.byte	0x4
+ 282 0092 04       		.byte	0x4
+ 283 0093 00010000 		.4byte	.LASF12
+ 284 0097 02       		.uleb128 0x2
+ 285 0098 08       		.byte	0x8
+ 286 0099 04       		.byte	0x4
+ 287 009a C8000000 		.4byte	.LASF13
+ 288 009e 02       		.uleb128 0x2
+ 289 009f 01       		.byte	0x1
+ 290 00a0 08       		.byte	0x8
+ 291 00a1 B0000000 		.4byte	.LASF14
+ 292 00a5 02       		.uleb128 0x2
+ 293 00a6 04       		.byte	0x4
+ 294 00a7 07       		.byte	0x7
+ 295 00a8 5B010000 		.4byte	.LASF15
+ 296 00ac 05       		.uleb128 0x5
+ 297 00ad 01       		.byte	0x1
+ 298 00ae CF000000 		.4byte	.LASF16
+ 299 00b2 01       		.byte	0x1
+ 300 00b3 15       		.byte	0x15
+ 301 00b4 01       		.byte	0x1
+ 302 00b5 00000000 		.4byte	.LFB33
+ 303 00b9 3C000000 		.4byte	.LFE33
+ 304 00bd 00000000 		.4byte	.LLST0
+ 305 00c1 01       		.byte	0x1
+ 306 00c2 06       		.uleb128 0x6
+ 307 00c3 01       		.byte	0x1
+ 308 00c4 22000000 		.4byte	.LASF17
+ARM GAS  C:\Users\Doel\AppData\Local\Temp\cchIRvGy.s 			page 8
+
+
+ 309 00c8 01       		.byte	0x1
+ 310 00c9 22       		.byte	0x22
+ 311 00ca 61000000 		.4byte	0x61
+ 312 00ce 00000000 		.4byte	.LFB34
+ 313 00d2 B8000000 		.4byte	.LFE34
+ 314 00d6 2C000000 		.4byte	.LLST1
+ 315 00da 01       		.byte	0x1
+ 316 00db 07       		.uleb128 0x7
+ 317 00dc 6900     		.ascii	"i\000"
+ 318 00de 01       		.byte	0x1
+ 319 00df 10       		.byte	0x10
+ 320 00e0 85000000 		.4byte	0x85
+ 321 00e4 01       		.byte	0x1
+ 322 00e5 05       		.byte	0x5
+ 323 00e6 03       		.byte	0x3
+ 324 00e7 00000000 		.4byte	i
+ 325 00eb 08       		.uleb128 0x8
+ 326 00ec 99000000 		.4byte	.LASF18
+ 327 00f0 01       		.byte	0x1
+ 328 00f1 11       		.byte	0x11
+ 329 00f2 61000000 		.4byte	0x61
+ 330 00f6 01       		.byte	0x1
+ 331 00f7 05       		.byte	0x5
+ 332 00f8 03       		.byte	0x3
+ 333 00f9 00000000 		.4byte	distance
+ 334 00fd 00       		.byte	0
+ 335              		.section	.debug_abbrev,"",%progbits
+ 336              	.Ldebug_abbrev0:
+ 337 0000 01       		.uleb128 0x1
+ 338 0001 11       		.uleb128 0x11
+ 339 0002 01       		.byte	0x1
+ 340 0003 25       		.uleb128 0x25
+ 341 0004 0E       		.uleb128 0xe
+ 342 0005 13       		.uleb128 0x13
+ 343 0006 0B       		.uleb128 0xb
+ 344 0007 03       		.uleb128 0x3
+ 345 0008 0E       		.uleb128 0xe
+ 346 0009 1B       		.uleb128 0x1b
+ 347 000a 0E       		.uleb128 0xe
+ 348 000b 55       		.uleb128 0x55
+ 349 000c 06       		.uleb128 0x6
+ 350 000d 11       		.uleb128 0x11
+ 351 000e 01       		.uleb128 0x1
+ 352 000f 52       		.uleb128 0x52
+ 353 0010 01       		.uleb128 0x1
+ 354 0011 10       		.uleb128 0x10
+ 355 0012 06       		.uleb128 0x6
+ 356 0013 00       		.byte	0
+ 357 0014 00       		.byte	0
+ 358 0015 02       		.uleb128 0x2
+ 359 0016 24       		.uleb128 0x24
+ 360 0017 00       		.byte	0
+ 361 0018 0B       		.uleb128 0xb
+ 362 0019 0B       		.uleb128 0xb
+ 363 001a 3E       		.uleb128 0x3e
+ 364 001b 0B       		.uleb128 0xb
+ 365 001c 03       		.uleb128 0x3
+ARM GAS  C:\Users\Doel\AppData\Local\Temp\cchIRvGy.s 			page 9
+
+
+ 366 001d 0E       		.uleb128 0xe
+ 367 001e 00       		.byte	0
+ 368 001f 00       		.byte	0
+ 369 0020 03       		.uleb128 0x3
+ 370 0021 24       		.uleb128 0x24
+ 371 0022 00       		.byte	0
+ 372 0023 0B       		.uleb128 0xb
+ 373 0024 0B       		.uleb128 0xb
+ 374 0025 3E       		.uleb128 0x3e
+ 375 0026 0B       		.uleb128 0xb
+ 376 0027 03       		.uleb128 0x3
+ 377 0028 08       		.uleb128 0x8
+ 378 0029 00       		.byte	0
+ 379 002a 00       		.byte	0
+ 380 002b 04       		.uleb128 0x4
+ 381 002c 16       		.uleb128 0x16
+ 382 002d 00       		.byte	0
+ 383 002e 03       		.uleb128 0x3
+ 384 002f 0E       		.uleb128 0xe
+ 385 0030 3A       		.uleb128 0x3a
+ 386 0031 0B       		.uleb128 0xb
+ 387 0032 3B       		.uleb128 0x3b
+ 388 0033 0B       		.uleb128 0xb
+ 389 0034 49       		.uleb128 0x49
+ 390 0035 13       		.uleb128 0x13
+ 391 0036 00       		.byte	0
+ 392 0037 00       		.byte	0
+ 393 0038 05       		.uleb128 0x5
+ 394 0039 2E       		.uleb128 0x2e
+ 395 003a 00       		.byte	0
+ 396 003b 3F       		.uleb128 0x3f
+ 397 003c 0C       		.uleb128 0xc
+ 398 003d 03       		.uleb128 0x3
+ 399 003e 0E       		.uleb128 0xe
+ 400 003f 3A       		.uleb128 0x3a
+ 401 0040 0B       		.uleb128 0xb
+ 402 0041 3B       		.uleb128 0x3b
+ 403 0042 0B       		.uleb128 0xb
+ 404 0043 27       		.uleb128 0x27
+ 405 0044 0C       		.uleb128 0xc
+ 406 0045 11       		.uleb128 0x11
+ 407 0046 01       		.uleb128 0x1
+ 408 0047 12       		.uleb128 0x12
+ 409 0048 01       		.uleb128 0x1
+ 410 0049 40       		.uleb128 0x40
+ 411 004a 06       		.uleb128 0x6
+ 412 004b 9642     		.uleb128 0x2116
+ 413 004d 0C       		.uleb128 0xc
+ 414 004e 00       		.byte	0
+ 415 004f 00       		.byte	0
+ 416 0050 06       		.uleb128 0x6
+ 417 0051 2E       		.uleb128 0x2e
+ 418 0052 00       		.byte	0
+ 419 0053 3F       		.uleb128 0x3f
+ 420 0054 0C       		.uleb128 0xc
+ 421 0055 03       		.uleb128 0x3
+ 422 0056 0E       		.uleb128 0xe
+ARM GAS  C:\Users\Doel\AppData\Local\Temp\cchIRvGy.s 			page 10
+
+
+ 423 0057 3A       		.uleb128 0x3a
+ 424 0058 0B       		.uleb128 0xb
+ 425 0059 3B       		.uleb128 0x3b
+ 426 005a 0B       		.uleb128 0xb
+ 427 005b 49       		.uleb128 0x49
+ 428 005c 13       		.uleb128 0x13
+ 429 005d 11       		.uleb128 0x11
+ 430 005e 01       		.uleb128 0x1
+ 431 005f 12       		.uleb128 0x12
+ 432 0060 01       		.uleb128 0x1
+ 433 0061 40       		.uleb128 0x40
+ 434 0062 06       		.uleb128 0x6
+ 435 0063 9642     		.uleb128 0x2116
+ 436 0065 0C       		.uleb128 0xc
+ 437 0066 00       		.byte	0
+ 438 0067 00       		.byte	0
+ 439 0068 07       		.uleb128 0x7
+ 440 0069 34       		.uleb128 0x34
+ 441 006a 00       		.byte	0
+ 442 006b 03       		.uleb128 0x3
+ 443 006c 08       		.uleb128 0x8
+ 444 006d 3A       		.uleb128 0x3a
+ 445 006e 0B       		.uleb128 0xb
+ 446 006f 3B       		.uleb128 0x3b
+ 447 0070 0B       		.uleb128 0xb
+ 448 0071 49       		.uleb128 0x49
+ 449 0072 13       		.uleb128 0x13
+ 450 0073 3F       		.uleb128 0x3f
+ 451 0074 0C       		.uleb128 0xc
+ 452 0075 02       		.uleb128 0x2
+ 453 0076 0A       		.uleb128 0xa
+ 454 0077 00       		.byte	0
+ 455 0078 00       		.byte	0
+ 456 0079 08       		.uleb128 0x8
+ 457 007a 34       		.uleb128 0x34
+ 458 007b 00       		.byte	0
+ 459 007c 03       		.uleb128 0x3
+ 460 007d 0E       		.uleb128 0xe
+ 461 007e 3A       		.uleb128 0x3a
+ 462 007f 0B       		.uleb128 0xb
+ 463 0080 3B       		.uleb128 0x3b
+ 464 0081 0B       		.uleb128 0xb
+ 465 0082 49       		.uleb128 0x49
+ 466 0083 13       		.uleb128 0x13
+ 467 0084 3F       		.uleb128 0x3f
+ 468 0085 0C       		.uleb128 0xc
+ 469 0086 02       		.uleb128 0x2
+ 470 0087 0A       		.uleb128 0xa
+ 471 0088 00       		.byte	0
+ 472 0089 00       		.byte	0
+ 473 008a 00       		.byte	0
+ 474              		.section	.debug_loc,"",%progbits
+ 475              	.Ldebug_loc0:
+ 476              	.LLST0:
+ 477 0000 00000000 		.4byte	.LFB33
+ 478 0004 02000000 		.4byte	.LCFI0
+ 479 0008 0200     		.2byte	0x2
+ARM GAS  C:\Users\Doel\AppData\Local\Temp\cchIRvGy.s 			page 11
+
+
+ 480 000a 7D       		.byte	0x7d
+ 481 000b 00       		.sleb128 0
+ 482 000c 02000000 		.4byte	.LCFI0
+ 483 0010 04000000 		.4byte	.LCFI1
+ 484 0014 0200     		.2byte	0x2
+ 485 0016 7D       		.byte	0x7d
+ 486 0017 08       		.sleb128 8
+ 487 0018 04000000 		.4byte	.LCFI1
+ 488 001c 3C000000 		.4byte	.LFE33
+ 489 0020 0200     		.2byte	0x2
+ 490 0022 77       		.byte	0x77
+ 491 0023 08       		.sleb128 8
+ 492 0024 00000000 		.4byte	0
+ 493 0028 00000000 		.4byte	0
+ 494              	.LLST1:
+ 495 002c 00000000 		.4byte	.LFB34
+ 496 0030 02000000 		.4byte	.LCFI2
+ 497 0034 0200     		.2byte	0x2
+ 498 0036 7D       		.byte	0x7d
+ 499 0037 00       		.sleb128 0
+ 500 0038 02000000 		.4byte	.LCFI2
+ 501 003c 04000000 		.4byte	.LCFI3
+ 502 0040 0200     		.2byte	0x2
+ 503 0042 7D       		.byte	0x7d
+ 504 0043 08       		.sleb128 8
+ 505 0044 04000000 		.4byte	.LCFI3
+ 506 0048 B8000000 		.4byte	.LFE34
+ 507 004c 0200     		.2byte	0x2
+ 508 004e 77       		.byte	0x77
+ 509 004f 08       		.sleb128 8
+ 510 0050 00000000 		.4byte	0
+ 511 0054 00000000 		.4byte	0
+ 512              		.section	.debug_aranges,"",%progbits
+ 513 0000 24000000 		.4byte	0x24
+ 514 0004 0200     		.2byte	0x2
+ 515 0006 00000000 		.4byte	.Ldebug_info0
+ 516 000a 04       		.byte	0x4
+ 517 000b 00       		.byte	0
+ 518 000c 0000     		.2byte	0
+ 519 000e 0000     		.2byte	0
+ 520 0010 00000000 		.4byte	.LFB33
+ 521 0014 3C000000 		.4byte	.LFE33-.LFB33
+ 522 0018 00000000 		.4byte	.LFB34
+ 523 001c B8000000 		.4byte	.LFE34-.LFB34
+ 524 0020 00000000 		.4byte	0
+ 525 0024 00000000 		.4byte	0
+ 526              		.section	.debug_ranges,"",%progbits
+ 527              	.Ldebug_ranges0:
+ 528 0000 00000000 		.4byte	.LFB33
+ 529 0004 3C000000 		.4byte	.LFE33
+ 530 0008 00000000 		.4byte	.LFB34
+ 531 000c B8000000 		.4byte	.LFE34
+ 532 0010 00000000 		.4byte	0
+ 533 0014 00000000 		.4byte	0
+ 534              		.section	.debug_line,"",%progbits
+ 535              	.Ldebug_line0:
+ 536 0000 C5000000 		.section	.debug_str,"MS",%progbits,1
+ARM GAS  C:\Users\Doel\AppData\Local\Temp\cchIRvGy.s 			page 12
+
+
+ 536      02004500 
+ 536      00000201 
+ 536      FB0E0D00 
+ 536      01010101 
+ 537              	.LASF6:
+ 538 0000 6C6F6E67 		.ascii	"long long int\000"
+ 538      206C6F6E 
+ 538      6720696E 
+ 538      7400
+ 539              	.LASF10:
+ 540 000e 75696E74 		.ascii	"uint32\000"
+ 540      333200
+ 541              	.LASF8:
+ 542 0015 756E7369 		.ascii	"unsigned int\000"
+ 542      676E6564 
+ 542      20696E74 
+ 542      00
+ 543              	.LASF17:
+ 544 0022 6D61696E 		.ascii	"main\000"
+ 544      00
+ 545              	.LASF19:
+ 546 0027 474E5520 		.ascii	"GNU C 4.7.3 20130312 (release) [ARM/embedded-4_7-br"
+ 546      4320342E 
+ 546      372E3320 
+ 546      32303133 
+ 546      30333132 
+ 547 005a 616E6368 		.ascii	"anch revision 196615]\000"
+ 547      20726576 
+ 547      6973696F 
+ 547      6E203139 
+ 547      36363135 
+ 548              	.LASF5:
+ 549 0070 6C6F6E67 		.ascii	"long unsigned int\000"
+ 549      20756E73 
+ 549      69676E65 
+ 549      6420696E 
+ 549      7400
+ 550              	.LASF7:
+ 551 0082 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 551      206C6F6E 
+ 551      6720756E 
+ 551      7369676E 
+ 551      65642069 
+ 552              	.LASF18:
+ 553 0099 64697374 		.ascii	"distance\000"
+ 553      616E6365 
+ 553      00
+ 554              	.LASF1:
+ 555 00a2 756E7369 		.ascii	"unsigned char\000"
+ 555      676E6564 
+ 555      20636861 
+ 555      7200
+ 556              	.LASF14:
+ 557 00b0 63686172 		.ascii	"char\000"
+ 557      00
+ 558              	.LASF4:
+ 559 00b5 6C6F6E67 		.ascii	"long int\000"
+ARM GAS  C:\Users\Doel\AppData\Local\Temp\cchIRvGy.s 			page 13
+
+
+ 559      20696E74 
+ 559      00
+ 560              	.LASF2:
+ 561 00be 73686F72 		.ascii	"short int\000"
+ 561      7420696E 
+ 561      7400
+ 562              	.LASF13:
+ 563 00c8 646F7562 		.ascii	"double\000"
+ 563      6C6500
+ 564              	.LASF16:
+ 565 00cf 54696D65 		.ascii	"Timer_ISR_handler\000"
+ 565      725F4953 
+ 565      525F6861 
+ 565      6E646C65 
+ 565      7200
+ 566              	.LASF3:
+ 567 00e1 73686F72 		.ascii	"short unsigned int\000"
+ 567      7420756E 
+ 567      7369676E 
+ 567      65642069 
+ 567      6E7400
+ 568              	.LASF0:
+ 569 00f4 7369676E 		.ascii	"signed char\000"
+ 569      65642063 
+ 569      68617200 
+ 570              	.LASF12:
+ 571 0100 666C6F61 		.ascii	"float\000"
+ 571      7400
+ 572              	.LASF21:
+ 573 0106 473A5C43 		.ascii	"G:\\Cypress PSoC\\Liquid Crystal Display\\Ultrasoni"
+ 573      79707265 
+ 573      73732050 
+ 573      536F435C 
+ 573      4C697175 
+ 574 0136 63205261 		.ascii	"c Ranger.cydsn\000"
+ 574      6E676572 
+ 574      2E637964 
+ 574      736E00
+ 575              	.LASF11:
+ 576 0145 696E7431 		.ascii	"int16\000"
+ 576      3600
+ 577              	.LASF20:
+ 578 014b 2E5C6D61 		.ascii	".\\main.c\000"
+ 578      696E2E63 
+ 578      00
+ 579              	.LASF9:
+ 580 0154 75696E74 		.ascii	"uint16\000"
+ 580      313600
+ 581              	.LASF15:
+ 582 015b 73697A65 		.ascii	"sizetype\000"
+ 582      74797065 
+ 582      00
+ 583              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.3 20130312 (release) [ARM/embedded-4_7-br
