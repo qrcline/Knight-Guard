@@ -18,6 +18,22 @@ public:
 private slots:
 
 
+    void on_Button_CommandSend_clicked();
+
+    void on_Button_SerialConnection_clicked();
+
+    void on_Button_NetworkConnect_clicked();
+
+    void on_Button_Move_Forward_clicked();
+
+    void on_Button_Move_Reverse_clicked();
+
+    void on_Button_Move_Right_clicked();
+
+    void on_Button_Move_Reverse_2_clicked();
+
+    void on_Button_Move_Right_2_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

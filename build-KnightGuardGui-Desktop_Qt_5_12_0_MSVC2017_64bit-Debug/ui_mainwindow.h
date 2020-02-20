@@ -32,38 +32,51 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QProgressBar *progressBar;
-    QProgressBar *progressBar_2;
-    QProgressBar *progressBar_3;
-    QProgressBar *progressBar_4;
+    QProgressBar *proxBar_Right;
+    QProgressBar *proxBar_left;
+    QProgressBar *proxBar_Front;
+    QProgressBar *proxBar_Rear;
     QWidget *verticalLayoutWidget;
     QVBoxLayout *verticalLayout;
     QLabel *label;
-    QLineEdit *serialLine;
-    QLineEdit *serialSpeed;
+    QLineEdit *textInput_Serial_Port;
+    QLineEdit *textInput_Serial_Speed;
     QGridLayout *gridLayout;
-    QPushButton *pushButton;
+    QPushButton *Button_SerialConnection;
     QSpacerItem *horizontalSpacer;
-    QTextBrowser *textBrowser;
+    QTextBrowser *commandTable;
     QWidget *horizontalLayoutWidget;
     QHBoxLayout *horizontalLayout;
-    QLineEdit *lineEdit;
-    QPushButton *pushButton_2;
+    QLineEdit *textIntput_Command;
+    QPushButton *Button_CommandSend;
     QWidget *verticalLayoutWidget_2;
     QVBoxLayout *verticalLayout_2;
     QLabel *label_2;
     QFrame *line;
     QGridLayout *gridLayout_4;
-    QLabel *label_4;
+    QLabel *statusLight_Power;
     QLabel *label_11;
     QLabel *label_9;
-    QLabel *label_8;
+    QLabel *statusLight_Motor1;
     QLabel *label_14;
-    QLabel *label_10;
+    QLabel *statusLight_Motor2;
     QLabel *label_3;
     QLabel *label_7;
-    QLabel *label_12;
-    QLabel *label_13;
+    QLabel *statusLight_ObstacleAvoid;
+    QLabel *statusLight_Network;
+    QWidget *verticalLayoutWidget_3;
+    QVBoxLayout *verticalLayout_3;
+    QLabel *label_5;
+    QLineEdit *textInput_Network_Adress;
+    QLineEdit *textInput_Network_Port;
+    QGridLayout *gridLayout_2;
+    QPushButton *Button_NetworkConnect;
+    QSpacerItem *horizontalSpacer_2;
+    QPushButton *Button_Move_Forward;
+    QPushButton *Button_Move_Reverse;
+    QPushButton *Button_Move_Right;
+    QPushButton *Button_Move_Right_2;
+    QPushButton *Button_Move_Reverse_2;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -74,32 +87,32 @@ public:
         MainWindow->resize(1057, 614);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        progressBar = new QProgressBar(centralwidget);
-        progressBar->setObjectName(QString::fromUtf8("progressBar"));
-        progressBar->setGeometry(QRect(930, 400, 118, 23));
-        progressBar->setValue(50);
-        progressBar->setTextVisible(true);
-        progressBar_2 = new QProgressBar(centralwidget);
-        progressBar_2->setObjectName(QString::fromUtf8("progressBar_2"));
-        progressBar_2->setGeometry(QRect(800, 400, 118, 23));
-        progressBar_2->setLayoutDirection(Qt::RightToLeft);
-        progressBar_2->setValue(50);
-        progressBar_2->setTextVisible(true);
-        progressBar_3 = new QProgressBar(centralwidget);
-        progressBar_3->setObjectName(QString::fromUtf8("progressBar_3"));
-        progressBar_3->setGeometry(QRect(910, 270, 23, 118));
-        progressBar_3->setLayoutDirection(Qt::RightToLeft);
-        progressBar_3->setValue(50);
-        progressBar_3->setTextVisible(true);
-        progressBar_3->setOrientation(Qt::Vertical);
-        progressBar_4 = new QProgressBar(centralwidget);
-        progressBar_4->setObjectName(QString::fromUtf8("progressBar_4"));
-        progressBar_4->setGeometry(QRect(910, 430, 23, 118));
-        progressBar_4->setLayoutDirection(Qt::RightToLeft);
-        progressBar_4->setValue(50);
-        progressBar_4->setTextVisible(true);
-        progressBar_4->setOrientation(Qt::Vertical);
-        progressBar_4->setInvertedAppearance(true);
+        proxBar_Right = new QProgressBar(centralwidget);
+        proxBar_Right->setObjectName(QString::fromUtf8("proxBar_Right"));
+        proxBar_Right->setGeometry(QRect(930, 400, 118, 23));
+        proxBar_Right->setValue(50);
+        proxBar_Right->setTextVisible(true);
+        proxBar_left = new QProgressBar(centralwidget);
+        proxBar_left->setObjectName(QString::fromUtf8("proxBar_left"));
+        proxBar_left->setGeometry(QRect(800, 400, 118, 23));
+        proxBar_left->setLayoutDirection(Qt::RightToLeft);
+        proxBar_left->setValue(50);
+        proxBar_left->setTextVisible(true);
+        proxBar_Front = new QProgressBar(centralwidget);
+        proxBar_Front->setObjectName(QString::fromUtf8("proxBar_Front"));
+        proxBar_Front->setGeometry(QRect(910, 270, 23, 118));
+        proxBar_Front->setLayoutDirection(Qt::RightToLeft);
+        proxBar_Front->setValue(50);
+        proxBar_Front->setTextVisible(true);
+        proxBar_Front->setOrientation(Qt::Vertical);
+        proxBar_Rear = new QProgressBar(centralwidget);
+        proxBar_Rear->setObjectName(QString::fromUtf8("proxBar_Rear"));
+        proxBar_Rear->setGeometry(QRect(910, 430, 23, 118));
+        proxBar_Rear->setLayoutDirection(Qt::RightToLeft);
+        proxBar_Rear->setValue(50);
+        proxBar_Rear->setTextVisible(true);
+        proxBar_Rear->setOrientation(Qt::Vertical);
+        proxBar_Rear->setInvertedAppearance(true);
         verticalLayoutWidget = new QWidget(centralwidget);
         verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
         verticalLayoutWidget->setGeometry(QRect(20, 30, 160, 104));
@@ -112,22 +125,22 @@ public:
 
         verticalLayout->addWidget(label);
 
-        serialLine = new QLineEdit(verticalLayoutWidget);
-        serialLine->setObjectName(QString::fromUtf8("serialLine"));
+        textInput_Serial_Port = new QLineEdit(verticalLayoutWidget);
+        textInput_Serial_Port->setObjectName(QString::fromUtf8("textInput_Serial_Port"));
 
-        verticalLayout->addWidget(serialLine);
+        verticalLayout->addWidget(textInput_Serial_Port);
 
-        serialSpeed = new QLineEdit(verticalLayoutWidget);
-        serialSpeed->setObjectName(QString::fromUtf8("serialSpeed"));
+        textInput_Serial_Speed = new QLineEdit(verticalLayoutWidget);
+        textInput_Serial_Speed->setObjectName(QString::fromUtf8("textInput_Serial_Speed"));
 
-        verticalLayout->addWidget(serialSpeed);
+        verticalLayout->addWidget(textInput_Serial_Speed);
 
         gridLayout = new QGridLayout();
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
-        pushButton = new QPushButton(verticalLayoutWidget);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        Button_SerialConnection = new QPushButton(verticalLayoutWidget);
+        Button_SerialConnection->setObjectName(QString::fromUtf8("Button_SerialConnection"));
 
-        gridLayout->addWidget(pushButton, 0, 1, 1, 1);
+        gridLayout->addWidget(Button_SerialConnection, 0, 1, 1, 1);
 
         horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
@@ -136,24 +149,24 @@ public:
 
         verticalLayout->addLayout(gridLayout);
 
-        textBrowser = new QTextBrowser(centralwidget);
-        textBrowser->setObjectName(QString::fromUtf8("textBrowser"));
-        textBrowser->setGeometry(QRect(30, 160, 371, 371));
+        commandTable = new QTextBrowser(centralwidget);
+        commandTable->setObjectName(QString::fromUtf8("commandTable"));
+        commandTable->setGeometry(QRect(30, 160, 371, 371));
         horizontalLayoutWidget = new QWidget(centralwidget);
         horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
         horizontalLayoutWidget->setGeometry(QRect(30, 530, 371, 31));
         horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        lineEdit = new QLineEdit(horizontalLayoutWidget);
-        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
+        textIntput_Command = new QLineEdit(horizontalLayoutWidget);
+        textIntput_Command->setObjectName(QString::fromUtf8("textIntput_Command"));
 
-        horizontalLayout->addWidget(lineEdit);
+        horizontalLayout->addWidget(textIntput_Command);
 
-        pushButton_2 = new QPushButton(horizontalLayoutWidget);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        Button_CommandSend = new QPushButton(horizontalLayoutWidget);
+        Button_CommandSend->setObjectName(QString::fromUtf8("Button_CommandSend"));
 
-        horizontalLayout->addWidget(pushButton_2);
+        horizontalLayout->addWidget(Button_CommandSend);
 
         verticalLayoutWidget_2 = new QWidget(centralwidget);
         verticalLayoutWidget_2->setObjectName(QString::fromUtf8("verticalLayoutWidget_2"));
@@ -180,21 +193,21 @@ public:
         gridLayout_4 = new QGridLayout();
         gridLayout_4->setObjectName(QString::fromUtf8("gridLayout_4"));
         gridLayout_4->setSizeConstraint(QLayout::SetNoConstraint);
-        label_4 = new QLabel(verticalLayoutWidget_2);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
+        statusLight_Power = new QLabel(verticalLayoutWidget_2);
+        statusLight_Power->setObjectName(QString::fromUtf8("statusLight_Power"));
         QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
-        sizePolicy.setHeightForWidth(label_4->sizePolicy().hasHeightForWidth());
-        label_4->setSizePolicy(sizePolicy);
-        label_4->setMinimumSize(QSize(20, 20));
-        label_4->setStyleSheet(QString::fromUtf8(" border-radius: 10px; \n"
+        sizePolicy.setHeightForWidth(statusLight_Power->sizePolicy().hasHeightForWidth());
+        statusLight_Power->setSizePolicy(sizePolicy);
+        statusLight_Power->setMinimumSize(QSize(20, 20));
+        statusLight_Power->setStyleSheet(QString::fromUtf8(" border-radius: 10px; \n"
 "background: red;\n"
 " color: #4A0C46;\n"
 "height:24;\n"
 "width:24;"));
 
-        gridLayout_4->addWidget(label_4, 0, 1, 1, 1);
+        gridLayout_4->addWidget(statusLight_Power, 0, 1, 1, 1);
 
         label_11 = new QLabel(verticalLayoutWidget_2);
         label_11->setObjectName(QString::fromUtf8("label_11"));
@@ -210,18 +223,18 @@ public:
 
         gridLayout_4->addWidget(label_9, 2, 0, 1, 1);
 
-        label_8 = new QLabel(verticalLayoutWidget_2);
-        label_8->setObjectName(QString::fromUtf8("label_8"));
-        sizePolicy.setHeightForWidth(label_8->sizePolicy().hasHeightForWidth());
-        label_8->setSizePolicy(sizePolicy);
-        label_8->setMinimumSize(QSize(20, 20));
-        label_8->setStyleSheet(QString::fromUtf8(" border-radius: 10px; \n"
+        statusLight_Motor1 = new QLabel(verticalLayoutWidget_2);
+        statusLight_Motor1->setObjectName(QString::fromUtf8("statusLight_Motor1"));
+        sizePolicy.setHeightForWidth(statusLight_Motor1->sizePolicy().hasHeightForWidth());
+        statusLight_Motor1->setSizePolicy(sizePolicy);
+        statusLight_Motor1->setMinimumSize(QSize(20, 20));
+        statusLight_Motor1->setStyleSheet(QString::fromUtf8(" border-radius: 10px; \n"
 "background: red;\n"
 " color: #4A0C46;\n"
 "height:24;\n"
 "width:24;"));
 
-        gridLayout_4->addWidget(label_8, 1, 1, 1, 1);
+        gridLayout_4->addWidget(statusLight_Motor1, 1, 1, 1, 1);
 
         label_14 = new QLabel(verticalLayoutWidget_2);
         label_14->setObjectName(QString::fromUtf8("label_14"));
@@ -236,18 +249,18 @@ public:
 
         gridLayout_4->addWidget(label_14, 4, 1, 1, 1);
 
-        label_10 = new QLabel(verticalLayoutWidget_2);
-        label_10->setObjectName(QString::fromUtf8("label_10"));
-        sizePolicy.setHeightForWidth(label_10->sizePolicy().hasHeightForWidth());
-        label_10->setSizePolicy(sizePolicy);
-        label_10->setMinimumSize(QSize(20, 20));
-        label_10->setStyleSheet(QString::fromUtf8(" border-radius: 10px; \n"
+        statusLight_Motor2 = new QLabel(verticalLayoutWidget_2);
+        statusLight_Motor2->setObjectName(QString::fromUtf8("statusLight_Motor2"));
+        sizePolicy.setHeightForWidth(statusLight_Motor2->sizePolicy().hasHeightForWidth());
+        statusLight_Motor2->setSizePolicy(sizePolicy);
+        statusLight_Motor2->setMinimumSize(QSize(20, 20));
+        statusLight_Motor2->setStyleSheet(QString::fromUtf8(" border-radius: 10px; \n"
 "background: red;\n"
 " color: #4A0C46;\n"
 "height:24;\n"
 "width:24;"));
 
-        gridLayout_4->addWidget(label_10, 2, 1, 1, 1);
+        gridLayout_4->addWidget(statusLight_Motor2, 2, 1, 1, 1);
 
         label_3 = new QLabel(verticalLayoutWidget_2);
         label_3->setObjectName(QString::fromUtf8("label_3"));
@@ -261,28 +274,79 @@ public:
 
         gridLayout_4->addWidget(label_7, 1, 0, 1, 1);
 
-        label_12 = new QLabel(verticalLayoutWidget_2);
-        label_12->setObjectName(QString::fromUtf8("label_12"));
-        sizePolicy.setHeightForWidth(label_12->sizePolicy().hasHeightForWidth());
-        label_12->setSizePolicy(sizePolicy);
-        label_12->setMinimumSize(QSize(20, 20));
-        label_12->setStyleSheet(QString::fromUtf8(" border-radius: 10px; \n"
+        statusLight_ObstacleAvoid = new QLabel(verticalLayoutWidget_2);
+        statusLight_ObstacleAvoid->setObjectName(QString::fromUtf8("statusLight_ObstacleAvoid"));
+        sizePolicy.setHeightForWidth(statusLight_ObstacleAvoid->sizePolicy().hasHeightForWidth());
+        statusLight_ObstacleAvoid->setSizePolicy(sizePolicy);
+        statusLight_ObstacleAvoid->setMinimumSize(QSize(20, 20));
+        statusLight_ObstacleAvoid->setStyleSheet(QString::fromUtf8(" border-radius: 10px; \n"
 "background: red;\n"
 " color: #4A0C46;\n"
 "height:24;\n"
 "width:24;"));
 
-        gridLayout_4->addWidget(label_12, 3, 1, 1, 1);
+        gridLayout_4->addWidget(statusLight_ObstacleAvoid, 3, 1, 1, 1);
 
-        label_13 = new QLabel(verticalLayoutWidget_2);
-        label_13->setObjectName(QString::fromUtf8("label_13"));
-        label_13->setFont(font);
+        statusLight_Network = new QLabel(verticalLayoutWidget_2);
+        statusLight_Network->setObjectName(QString::fromUtf8("statusLight_Network"));
+        statusLight_Network->setFont(font);
 
-        gridLayout_4->addWidget(label_13, 4, 0, 1, 1);
+        gridLayout_4->addWidget(statusLight_Network, 4, 0, 1, 1);
 
 
         verticalLayout_2->addLayout(gridLayout_4);
 
+        verticalLayoutWidget_3 = new QWidget(centralwidget);
+        verticalLayoutWidget_3->setObjectName(QString::fromUtf8("verticalLayoutWidget_3"));
+        verticalLayoutWidget_3->setGeometry(QRect(200, 30, 160, 104));
+        verticalLayout_3 = new QVBoxLayout(verticalLayoutWidget_3);
+        verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
+        verticalLayout_3->setContentsMargins(0, 0, 0, 0);
+        label_5 = new QLabel(verticalLayoutWidget_3);
+        label_5->setObjectName(QString::fromUtf8("label_5"));
+        label_5->setAlignment(Qt::AlignCenter);
+
+        verticalLayout_3->addWidget(label_5);
+
+        textInput_Network_Adress = new QLineEdit(verticalLayoutWidget_3);
+        textInput_Network_Adress->setObjectName(QString::fromUtf8("textInput_Network_Adress"));
+
+        verticalLayout_3->addWidget(textInput_Network_Adress);
+
+        textInput_Network_Port = new QLineEdit(verticalLayoutWidget_3);
+        textInput_Network_Port->setObjectName(QString::fromUtf8("textInput_Network_Port"));
+
+        verticalLayout_3->addWidget(textInput_Network_Port);
+
+        gridLayout_2 = new QGridLayout();
+        gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
+        Button_NetworkConnect = new QPushButton(verticalLayoutWidget_3);
+        Button_NetworkConnect->setObjectName(QString::fromUtf8("Button_NetworkConnect"));
+
+        gridLayout_2->addWidget(Button_NetworkConnect, 0, 1, 1, 1);
+
+        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        gridLayout_2->addItem(horizontalSpacer_2, 0, 0, 1, 1);
+
+
+        verticalLayout_3->addLayout(gridLayout_2);
+
+        Button_Move_Forward = new QPushButton(centralwidget);
+        Button_Move_Forward->setObjectName(QString::fromUtf8("Button_Move_Forward"));
+        Button_Move_Forward->setGeometry(QRect(580, 430, 80, 21));
+        Button_Move_Reverse = new QPushButton(centralwidget);
+        Button_Move_Reverse->setObjectName(QString::fromUtf8("Button_Move_Reverse"));
+        Button_Move_Reverse->setGeometry(QRect(580, 510, 80, 21));
+        Button_Move_Right = new QPushButton(centralwidget);
+        Button_Move_Right->setObjectName(QString::fromUtf8("Button_Move_Right"));
+        Button_Move_Right->setGeometry(QRect(680, 470, 80, 21));
+        Button_Move_Right_2 = new QPushButton(centralwidget);
+        Button_Move_Right_2->setObjectName(QString::fromUtf8("Button_Move_Right_2"));
+        Button_Move_Right_2->setGeometry(QRect(480, 470, 80, 21));
+        Button_Move_Reverse_2 = new QPushButton(centralwidget);
+        Button_Move_Reverse_2->setObjectName(QString::fromUtf8("Button_Move_Reverse_2"));
+        Button_Move_Reverse_2->setGeometry(QRect(570, 460, 91, 41));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -300,24 +364,35 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
-        progressBar->setFormat(QApplication::translate("MainWindow", "%p", nullptr));
-        progressBar_2->setFormat(QApplication::translate("MainWindow", "%p", nullptr));
-        progressBar_3->setFormat(QApplication::translate("MainWindow", "%p", nullptr));
-        progressBar_4->setFormat(QApplication::translate("MainWindow", "%p", nullptr));
+        proxBar_Right->setFormat(QApplication::translate("MainWindow", "%p", nullptr));
+        proxBar_left->setFormat(QApplication::translate("MainWindow", "%p", nullptr));
+        proxBar_Front->setFormat(QApplication::translate("MainWindow", "%p", nullptr));
+        proxBar_Rear->setFormat(QApplication::translate("MainWindow", "%p", nullptr));
         label->setText(QApplication::translate("MainWindow", "Serial Connection", nullptr));
-        pushButton->setText(QApplication::translate("MainWindow", "PushButton", nullptr));
-        pushButton_2->setText(QApplication::translate("MainWindow", "Send", nullptr));
+        textInput_Serial_Port->setPlaceholderText(QApplication::translate("MainWindow", "COM Port", nullptr));
+        textInput_Serial_Speed->setPlaceholderText(QApplication::translate("MainWindow", "Speed", nullptr));
+        Button_SerialConnection->setText(QApplication::translate("MainWindow", "Connect", nullptr));
+        Button_CommandSend->setText(QApplication::translate("MainWindow", "Send", nullptr));
         label_2->setText(QApplication::translate("MainWindow", "Status", nullptr));
-        label_4->setText(QString());
+        statusLight_Power->setText(QString());
         label_11->setText(QApplication::translate("MainWindow", "Obstacle Avoidance", nullptr));
         label_9->setText(QApplication::translate("MainWindow", "Motor 2", nullptr));
-        label_8->setText(QString());
+        statusLight_Motor1->setText(QString());
         label_14->setText(QString());
-        label_10->setText(QString());
+        statusLight_Motor2->setText(QString());
         label_3->setText(QApplication::translate("MainWindow", "Power", nullptr));
         label_7->setText(QApplication::translate("MainWindow", "Motor 1", nullptr));
-        label_12->setText(QString());
-        label_13->setText(QApplication::translate("MainWindow", "Wifi", nullptr));
+        statusLight_ObstacleAvoid->setText(QString());
+        statusLight_Network->setText(QApplication::translate("MainWindow", "Network Connection", nullptr));
+        label_5->setText(QApplication::translate("MainWindow", "Netowrk Connection", nullptr));
+        textInput_Network_Adress->setPlaceholderText(QApplication::translate("MainWindow", "Adress", nullptr));
+        textInput_Network_Port->setPlaceholderText(QApplication::translate("MainWindow", "Port", nullptr));
+        Button_NetworkConnect->setText(QApplication::translate("MainWindow", "Connect", nullptr));
+        Button_Move_Forward->setText(QApplication::translate("MainWindow", "Forward", nullptr));
+        Button_Move_Reverse->setText(QApplication::translate("MainWindow", "Reverse", nullptr));
+        Button_Move_Right->setText(QApplication::translate("MainWindow", "90 Right", nullptr));
+        Button_Move_Right_2->setText(QApplication::translate("MainWindow", "90 Left", nullptr));
+        Button_Move_Reverse_2->setText(QApplication::translate("MainWindow", "STOP", nullptr));
     } // retranslateUi
 
 };

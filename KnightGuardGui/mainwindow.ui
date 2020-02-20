@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QProgressBar" name="progressBar">
+   <widget class="QProgressBar" name="proxBar_Right">
     <property name="geometry">
      <rect>
       <x>930</x>
@@ -33,7 +33,7 @@
      <string>%p</string>
     </property>
    </widget>
-   <widget class="QProgressBar" name="progressBar_2">
+   <widget class="QProgressBar" name="proxBar_left">
     <property name="geometry">
      <rect>
       <x>800</x>
@@ -55,7 +55,7 @@
      <string>%p</string>
     </property>
    </widget>
-   <widget class="QProgressBar" name="progressBar_3">
+   <widget class="QProgressBar" name="proxBar_Front">
     <property name="geometry">
      <rect>
       <x>910</x>
@@ -80,7 +80,7 @@
      <string>%p</string>
     </property>
    </widget>
-   <widget class="QProgressBar" name="progressBar_4">
+   <widget class="QProgressBar" name="proxBar_Rear">
     <property name="geometry">
      <rect>
       <x>910</x>
@@ -129,17 +129,25 @@
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="serialLine"/>
+      <widget class="QLineEdit" name="textInput_Serial_Port">
+       <property name="placeholderText">
+        <string>COM Port</string>
+       </property>
+      </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="serialSpeed"/>
+      <widget class="QLineEdit" name="textInput_Serial_Speed">
+       <property name="placeholderText">
+        <string>Speed</string>
+       </property>
+      </widget>
      </item>
      <item>
       <layout class="QGridLayout" name="gridLayout">
        <item row="0" column="1">
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="Button_SerialConnection">
          <property name="text">
-          <string>PushButton</string>
+          <string>Connect</string>
          </property>
         </widget>
        </item>
@@ -160,7 +168,7 @@
      </item>
     </layout>
    </widget>
-   <widget class="QTextBrowser" name="textBrowser">
+   <widget class="QTextBrowser" name="commandTable">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -181,10 +189,10 @@
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
-      <widget class="QLineEdit" name="serial_MessageSend_Entry"/>
+      <widget class="QLineEdit" name="textIntput_Command"/>
      </item>
      <item>
-      <widget class="QPushButton" name="serial_MessageSend_Button">
+      <widget class="QPushButton" name="Button_CommandSend">
        <property name="text">
         <string>Send</string>
        </property>
@@ -237,7 +245,7 @@
         <enum>QLayout::SetNoConstraint</enum>
        </property>
        <item row="0" column="1">
-        <widget class="QLabel" name="label_4">
+        <widget class="QLabel" name="statusLight_Power">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
            <horstretch>0</horstretch>
@@ -287,7 +295,7 @@ width:24;</string>
         </widget>
        </item>
        <item row="1" column="1">
-        <widget class="QLabel" name="label_8">
+        <widget class="QLabel" name="statusLight_Motor1">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
            <horstretch>0</horstretch>
@@ -339,7 +347,7 @@ width:24;</string>
         </widget>
        </item>
        <item row="2" column="1">
-        <widget class="QLabel" name="label_10">
+        <widget class="QLabel" name="statusLight_Motor2">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
            <horstretch>0</horstretch>
@@ -389,7 +397,7 @@ width:24;</string>
         </widget>
        </item>
        <item row="3" column="1">
-        <widget class="QLabel" name="label_12">
+        <widget class="QLabel" name="statusLight_ObstacleAvoid">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
            <horstretch>0</horstretch>
@@ -415,20 +423,145 @@ width:24;</string>
         </widget>
        </item>
        <item row="4" column="0">
-        <widget class="QLabel" name="label_13">
+        <widget class="QLabel" name="statusLight_Network">
          <property name="font">
           <font>
            <pointsize>10</pointsize>
           </font>
          </property>
          <property name="text">
-          <string>Wifi</string>
+          <string>Network Connection</string>
          </property>
         </widget>
        </item>
       </layout>
      </item>
     </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>30</y>
+      <width>160</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Netowrk Connection</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="textInput_Network_Adress">
+       <property name="placeholderText">
+        <string>Adress</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="textInput_Network_Port">
+       <property name="placeholderText">
+        <string>Port</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="1">
+        <widget class="QPushButton" name="Button_NetworkConnect">
+         <property name="text">
+          <string>Connect</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="Button_Move_Forward">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>430</y>
+      <width>80</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Forward</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_Move_Reverse">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>510</y>
+      <width>80</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reverse</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_Move_Right">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>470</y>
+      <width>80</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>90 Right</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_Move_Right_2">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>470</y>
+      <width>80</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>90 Left</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_Move_Reverse_2">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>460</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>STOP</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
